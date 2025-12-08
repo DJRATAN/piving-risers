@@ -20,7 +20,7 @@ import {
     UserCheck2Icon,
     X,
     Zap
-} from 'lucide-react';
+} from 'lucide-react'; 
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -69,7 +69,7 @@ const Navbar = () => {
                             <div className="items-center gap-4 hidden lg:flex">
                                 <Link href={'/'} className="shrink-0">
                                     <Image
-                                        src={'/PAVING-RISERS-LOGO.PNG'}
+                                        src={'/PAVING-RISERS-LOGO.png'}
                                         alt='Mega Foundries'
                                         height={80}
                                         width={80}
@@ -134,7 +134,7 @@ const Navbar = () => {
                                 })}
                             </div>
 
-                            <div className="h-12 w-[1px] bg-gray-200"></div>
+                            <div className="h-12 w-px bg-gray-200"></div>
 
                         </div>
 
