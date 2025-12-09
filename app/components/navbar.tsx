@@ -69,7 +69,7 @@ const Navbar = () => {
                             <div className="items-center gap-4 hidden lg:flex">
                                 <Link href={'/'} className="shrink-0">
                                     <Image
-                                        src={'/paving-RISERS-LOGO.png'}
+                                        src={'/PAVING-RISERS-LOGO.png'}
                                         alt='Mega Foundries'
                                         height={80}
                                         width={80}

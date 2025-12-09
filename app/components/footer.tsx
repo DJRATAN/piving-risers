@@ -75,7 +75,7 @@ const Footer = () => {
             <div className="flex gap-4">
               <div className="bg-white p-2 rounded-lg w-28 h-24 flex items-center justify-center shadow-md hover:scale-105 transition-transform">
                 <Link href={'/'} className="w-full h-full relative">
-                  <Image src={'/paving-RISERS-LOGO.png'} alt='Mega Foundries' fill className="object-contain" />
+                  <Image src={'/PAVING-RISERS-LOGO.png'} alt='Mega Foundries' fill className="object-contain" />
                 </Link>
               </div>
               {/* <div className="bg-white p-2 rounded-lg w-28 h-24 flex items-center justify-center shadow-md hover:scale-105 transition-transform">
