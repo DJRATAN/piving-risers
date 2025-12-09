@@ -382,7 +382,7 @@ export const menuData = {
         image: "/assets/image1.jpeg",
         description: "Aesthetic molds built for landscape projects and urban beautification with architectural precision.",
         items: [
-          "Paving block molds",
+          "piving block molds",
           "Planter molds",
           "Tree guard molds",
           "Decorative wall molds",
@@ -815,18 +815,18 @@ export const menuData = {
     color: 'bg-[#cc2221] text-white',
     categories: []
   },
-  paving_risers: {
-    id: 'paving_risers',
-    label: 'PAVING RISERS',
+  piving_risers: {
+    id: 'piving_risers',
+    label: 'piving RISERS',
     icon: Cog,
-    bannerImage: '/assets/PAVING-RISERS/paving riser 1.5200.png',
+    bannerImage: '/assets/piving-RISERS/piving riser 1.5200.png',
     color: 'bg-[#cc2221] text-white',
     categories: [
       {
-        name: "ADJUSTABLE PAVING RISERS",
-        slug: "adjustable-paving-risers",
-        image: "/assets/PAVING-RISERS/paving riser 1.5201.png",
-        description: "Height-adjustable pedestal risers for outdoor paving applications, ensuring precise leveling and strong load-bearing support.",
+        name: "ADJUSTABLE piving RISERS",
+        slug: "adjustable-piving-risers",
+        image: "/assets/piving-RISERS/piving riser 1.5201.png",
+        description: "Height-adjustable pedestal risers for outdoor piving applications, ensuring precise leveling and strong load-bearing support.",
         items: [
           "Standard adjustable risers",
           "Heavy-duty pedestal risers",
@@ -838,7 +838,7 @@ export const menuData = {
       {
         name: "FIXED HEIGHT RISERS",
         slug: "fixed-height-risers",
-        image: "/assets/PAVING-RISERS/paving riser 1.5203.png",
+        image: "/assets/piving-RISERS/piving riser 1.5203.png",
         description: "Fixed-height pedestal systems suitable for balconies, terraces, swimming pool decks and light-weight flooring installations.",
         items: [
           "15 mm risers",
@@ -851,8 +851,8 @@ export const menuData = {
       {
         name: "TILE & PAVER SUPPORT ACCESSORIES",
         slug: "tile-and-paver-support-accessories",
-        image: "/assets/PAVING-RISERS/paving riser 1.5204.png",
-        description: "Accessories for installation accuracy, anti-slip finish and vibration control during paving projects.",
+        image: "/assets/piving-RISERS/piving riser 1.5204.png",
+        description: "Accessories for installation accuracy, anti-slip finish and vibration control during piving projects.",
         items: [
           "Spacer tabs",
           "Edge finish supports",
@@ -864,7 +864,7 @@ export const menuData = {
       {
         name: "DECKING & OUTDOOR FLOORING SOLUTIONS",
         slug: "decking-and-outdoor-flooring-solutions",
-        image: "/assets/PAVING-RISERS/paving riser 1.5205.png",
+        image: "/assets/piving-RISERS/piving riser 1.5205.png",
         description: "Pedestal support systems compatible with composite decking, ceramic outdoor tiles, stone slabs and raised exterior flooring.",
         items: [
           "Composite deck pedestal systems",

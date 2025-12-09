@@ -6,7 +6,7 @@ import { footerColumns } from '@/lib/menuData2';
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
- 
+
 const Footer = () => {
   const products = [
     { label: 'Molded Gratings', href: "/" },
@@ -75,7 +75,7 @@ const Footer = () => {
             <div className="flex gap-4">
               <div className="bg-white p-2 rounded-lg w-28 h-24 flex items-center justify-center shadow-md hover:scale-105 transition-transform">
                 <Link href={'/'} className="w-full h-full relative">
-                  <Image src={'/PAVING-RISERS-LOGO.png'} alt='Mega Foundries' fill className="object-contain" />
+                  <Image src={'/paving-RISERS-LOGO.png'} alt='Mega Foundries' fill className="object-contain" />
                 </Link>
               </div>
               {/* <div className="bg-white p-2 rounded-lg w-28 h-24 flex items-center justify-center shadow-md hover:scale-105 transition-transform">
@@ -190,7 +190,7 @@ const Footer = () => {
       </div>
       <div className="w-full px-4 sm:px-6 lg:px-10 py-3 pb-12  ">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8 items-start">
- 
+
           {footerColumns.map((col) => (
             <div key={col.id} className="flex flex-col gap-6">
 

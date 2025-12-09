@@ -7,7 +7,7 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
- import {
+import {
     BookAIcon,
     ChevronDown,
     ChevronRight,
@@ -20,7 +20,7 @@ import {
     UserCheck2Icon,
     X,
     Zap
-} from 'lucide-react'; 
+} from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -69,11 +69,11 @@ const Navbar = () => {
                             <div className="items-center gap-4 hidden lg:flex">
                                 <Link href={'/'} className="shrink-0">
                                     <Image
-                                        src={'/PAVING-RISERS-LOGO.png'}
+                                        src={'/paving-RISERS-LOGO.png'}
                                         alt='Mega Foundries'
                                         height={80}
                                         width={80}
-                                        className="object-contain h-12 w-12 sm:h-16 sm:w-16 lg:h-20 lg:w-20"
+                                        className="object-contain h-12 w-12 sm:h-16 sm:w-16 lg:h-20 lg:w-40"
                                     />
                                 </Link>
 

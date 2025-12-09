@@ -9,16 +9,16 @@ export default function InfrastructureRisers() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* === LEFT: VISUAL SHOWCASE === */}
           <div className="relative">
             {/* Main Product Image Container */}
             <div className="relative z-10 aspect-square w-full rounded-2xl overflow-hidden border border-slate-100 shadow-2xl">
-              <Image 
-                src="/assets/PAVING-RISERS/paving riser 1.5201.png" // Ensure this exists
-                alt="Mega Foundries Paving Riser Unit"
+              <Image
+                src="/assets/piving-RISERS/piving riser 1.5201.png" // Ensure this exists
+                alt="Mega Foundries piving Riser Unit"
                 fill
                 className="object-cover"
               />
@@ -31,10 +31,10 @@ export default function InfrastructureRisers() {
             {/* Floating Decorative Elements */}
             <div className="absolute -bottom-6 -right-6 w-1/2 aspect-square bg-slate-50 border border-slate-200 rounded-2xl -z-10 hidden md:block"></div>
             <div className="absolute top-1/2 -left-8 -translate-y-1/2 p-6 bg-white shadow-xl rounded-xl border border-slate-50 hidden md:block">
-               <div className="flex items-center gap-4 text-[#cc2221]">
-                  <Ruler className="w-8 h-8" />
-                  <p className="text-sm font-bold leading-tight">Precision <br /> Height Adjustment</p>
-               </div>
+              <div className="flex items-center gap-4 text-[#cc2221]">
+                <Ruler className="w-8 h-8" />
+                <p className="text-sm font-bold leading-tight">Precision <br /> Height Adjustment</p>
+              </div>
             </div>
           </div>
 
@@ -43,10 +43,10 @@ export default function InfrastructureRisers() {
             <div className="space-y-4">
               <h4 className="text-[#cc2221] font-bold text-sm uppercase tracking-[0.2em]">Municipal Solutions</h4>
               <h2 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight">
-                Cast Iron <br /> <span className="text-[#cc2221]">Paving Risers</span>
+                Cast Iron <br /> <span className="text-[#cc2221]">piving Risers</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed max-w-xl">
-                Maintain seamless urban traffic flow. Our heavy-duty paving risers allow for precise manhole elevation adjustment during road overlays, eliminating the need for costly digging.
+                Maintain seamless urban traffic flow. Our heavy-duty piving risers allow for precise manhole elevation adjustment during road overlays, eliminating the need for costly digging.
               </p>
             </div>
 
@@ -74,18 +74,18 @@ export default function InfrastructureRisers() {
 
             {/* Tech Table Meta */}
             <div className="p-6 bg-slate-50 rounded-xl space-y-3 border border-slate-100">
-               <div className="flex justify-between border-b border-slate-200 pb-2">
-                  <span className="text-slate-500 font-medium italic text-sm">Our Pledge:</span>
-                  <span className="text-slate-900 font-bold text-sm text-right italic">"Undertaking every casting... regardless."</span>
-               </div>
-               <div className="flex justify-between text-sm">
-                  <span className="text-slate-500">Material</span>
-                  <span className="text-slate-900 font-bold">Ductile/Grey Iron ASTM A48</span>
-               </div>
-               <div className="flex justify-between text-sm">
-                  <span className="text-slate-500">Standard Sizes</span>
-                  <span className="text-slate-900 font-bold">24", 30", and Custom Blueprints</span>
-               </div>
+              <div className="flex justify-between border-b border-slate-200 pb-2">
+                <span className="text-slate-500 font-medium italic text-sm">Our Pledge:</span>
+                <span className="text-slate-900 font-bold text-sm text-right italic">"Undertaking every casting... regardless."</span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-slate-500">Material</span>
+                <span className="text-slate-900 font-bold">Ductile/Grey Iron ASTM A48</span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-slate-500">Standard Sizes</span>
+                <span className="text-slate-900 font-bold">24", 30", and Custom Blueprints</span>
+              </div>
             </div>
 
             <div className="pt-4 flex gap-4">

@@ -10,14 +10,14 @@ export default function PipingRiserFeature() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="bg-white rounded-xl shadow-2xl overflow-hidden border border-gray-100">
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            
+
             {/* === LEFT COLUMN: Content & Features === */}
             <div className="p-8 md:p-12 lg:p-16 space-y-8">
-              
+
               {/* Header */}
               <div className="flex items-center gap-4">
                 <div className="h-8 w-1.5 bg-[#cc2221] rounded-full" />
@@ -27,9 +27,9 @@ export default function PipingRiserFeature() {
               </div>
 
               <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-                High-Integrity <span className="text-[#cc2221]">Piping Risers</span> & Vertical Assemblies
+                High-Integrity <span className="text-[#cc2221]">Paving Risers</span> & Vertical Assemblies
               </h3>
-              
+
               <p className="text-lg text-gray-700 leading-relaxed">
                 Mega Foundries provides precision-cast and forged components for specialized vertical piping risers used in demanding environments—from offshore drilling to high-pressure chemical plants.
               </p>
@@ -80,20 +80,20 @@ export default function PipingRiserFeature() {
 
             {/* === RIGHT COLUMN: Image & Visual === */}
             <div className="relative aspect-[4/3] lg:aspect-auto lg:h-full ">
-                
-                <Image
-                    src="/assets/PAVING-RISERS/paving riser 1.5200.png" // Placeholder path
-                    alt="Industrial Piping Riser Components"
-                    layout="fill"
-                    objectFit="cover"
-                    className="opacity-70"
-                />
-                <div className="absolute inset-0 bg-slate-900/40"></div>
-                
-                {/* Visual Highlight Text */}
-                <div className="absolute bottom-6 left-6 p-3 bg-black/50 backdrop-blur-sm rounded-md border border-red-500/20">
-                    <p className="text-xl font-bold text-white leading-none">ISO 9001 Certified Materials</p>
-                </div>
+
+              <Image
+                src="/assets/piving-RISERS/piving riser 1.5200.png" // Placeholder path
+                alt="Industrial Piping Riser Components"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-70"
+              />
+              <div className="absolute inset-0 bg-slate-900/40"></div>
+
+              {/* Visual Highlight Text */}
+              <div className="absolute bottom-6 left-6 p-3 bg-black/50 backdrop-blur-sm rounded-md border border-red-500/20">
+                <p className="text-xl font-bold text-white leading-none">ISO 9001 Certified Materials</p>
+              </div>
             </div>
 
           </div>
